@@ -1,4 +1,4 @@
-# импортируем библиотеку streamlit2
-import streamlit as st
+def open_data(path="data/music_genre_test.csv"):
+  df = pd.read_csv(path)
 
-df = pd.read_csv('data/music_genre_test.csv)
+  return df
